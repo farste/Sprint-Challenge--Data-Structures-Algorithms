@@ -5,11 +5,13 @@ class BinarySearchTree:
     self.right = None
 
   def depth_first_for_each(self, cb):
+  # recursive -- own answer
   #  cb(self.value)
   #  if self.left:
   #    self.left.depth_first_for_each(cb)
   #  if self.right:
   #    self.right.depth_first_for_each(cb)
+
     stack = []
     stack.append(self)
 

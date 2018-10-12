@@ -1,6 +1,6 @@
 Add your answers to the Algorithms exercises here.
-a) O
-b) O(c^n)
+a) O(n)
+b) O(n^3)
 c) O(c^n)
 
 def safe_story
